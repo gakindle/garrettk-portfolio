@@ -1,0 +1,64 @@
+.root {
+    --green: #545340;
+    --black: #232323;
+    --bg-color: #ededed;
+}
+
+.logo{
+  height: 55px;
+}
+
+/* Nav Styles */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:visited { 
+    text-decoration: none; 
+    color: var(--black); 
+  }
+
+  nav .contact-me {
+      float: right;
+  }
+
+  .contact-icon {
+    padding: 13px;
+    height: 18px;
+  }
+
+  /* End of Nav Styles */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--black);
+    font-family: 'Playfair Display', serif;
+}
+
+body p {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
