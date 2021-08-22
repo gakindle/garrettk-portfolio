@@ -2,9 +2,14 @@
     --green: #545340;
     --black: #232323;
     --bg-color: #ededed;
+    --accent: #d9d8d8
 }
 
-.logo{
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
   height: 55px;
 }
 
@@ -23,33 +28,33 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  nav li {
-    float: left;
-  }
+nav li {
+  float: left;
+}
   
-  nav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: var(--black)
-  }
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: var(--black)
+}
 
-  a:visited { 
-    text-decoration: none; 
-    color: var(--black); 
-  }
+a:visited { 
+  text-decoration: none; 
+  color: var(--black); 
+}
 
-  nav .contact-me {
-      float: right;
-  }
+nav .contact-me {
+  float: right;
+}
 
-  .contact-icon {
-    padding: 13px;
-    height: 18px;
-  }
+.contact-icon {
+  padding: 13px;
+  height: 18px;
+}
 
   /* End of Nav Styles */
 
@@ -62,4 +67,38 @@ body {
 body p {
     font-family: 'Tenor Sans', sans-serif;
 }
+
+h2 {
+  font-size: 60px;
+  padding-left: 50px;
+  position: relative;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#about-me{
+  display: flex;
+  margin: 75px 25px
+}
+
+#about-me img {
+  height: 400px;
+  float: right;
+}
+
+#about-me p {
+  border-left: 6px solid var(--black);
+}
+
+#my-work {
+  height: 100%;
+  background-color: var(--accent)
+}
+
+.my-work img {
+  width: 75%;
+  border: 20px solid var(--green);
+}
+
+
 
