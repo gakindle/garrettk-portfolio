@@ -1,4 +1,4 @@
-.root {
+:root {
     --green: #545340;
     --black: #232323;
     --bg-color: #ededed;
@@ -76,7 +76,7 @@ h2 {
   text-align: center;
 }
 
-#about-me{
+#about-me {
   display: flex;
   margin: 75px 25px
 }
@@ -87,7 +87,8 @@ h2 {
 }
 
 #about-me p {
-  border-left: 6px solid var(--black);
+  border-left: 2px solid var(--black);
+  padding-left: 15px;
 }
 
 #my-work {
@@ -97,8 +98,23 @@ h2 {
 
 .my-work img {
   width: 75%;
-  border: 20px solid var(--green);
+  border: 5px solid var(--black);
+  object-fit: cover;
+  
 }
 
+.my-work img:hover {
+  opacity: 75%;
+}
 
+.work-container img { 
+  position: relative; 
+  width: 100%;
+}
 
+.work-container h3 { 
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
+}
